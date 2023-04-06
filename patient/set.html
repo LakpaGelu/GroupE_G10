@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="set.css">
+    <script src="https://kit.fontawesome.com/5fa1a5cebf.js" crossorigin="anonymous"></script>
+    <title>set</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-clinic-medical"></i>
+                        <div class="title">Patient page</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">Dashboard</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-stethoscope"></i>
+                        <div class="title">Appointment</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="Departments/deparment.html">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <div class="title">Department</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div class="title">payment</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div class="title">Setting</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <div class="title">Help</div>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="search">
+                    <input type="text" name="search" placeholder="search here">
+                    <label for="search"><i class="fas fa-search"></i></label> 
+                </div>
+                <i class="fas fa-bell"></i>
+                <div class="user">
+                    <img src="/img/doctors.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                
+            </div>
+            <div rightbox>
+                <div>
+                <h2>Personal Information</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" value="John Doe">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="johndoe@example.com">
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" value="555-555-5555">
+
+                        <button type="submit">Save Changes</button>
+                    </form>
+                </div>
+                <div>                
+                <h2>Password</h2>
+                    <form>
+                        <label for="current-password">Current Password:</label>
+                        <input type="password" id="current-password" name="current-password">
+
+                        <label for="new-password">New Password:</label>
+                        <input type="password" id="new-password" name="new-password">
+
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+
+                        <button type="submit">Change Password</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

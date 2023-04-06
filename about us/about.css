@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rampart+One&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+p {
+    padding: 4px;
+    margin: 6px;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    background-color: #f3f5f8;
+    flex-direction: column;
+}
+
+
+.team-member {
+    height: 350px;
+    width: 380px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 80px;
+    border-radius: 0 0 100px 0;
+}
+
+.Appointment {
+    border-radius: 39px;
+    height: 46px;
+    width: 265px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    border: 2px solid #ff725e;
+    background-color: #ff725e;
+    color: white;
+}
+
+.Appointment:hover {
+    border: 2px solid #ff725e;
+    color: #ff725e;
+    background-color: white;
+}
+
+.rounded-circle img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px -282px auto;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: #ff725e;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-1{
+    display: flex;
+}
+.container-2{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 200px;
+}

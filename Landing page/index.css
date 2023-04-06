@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Rampart+One&family=Ubuntu:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@800&family=Rampart+One&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav:hover {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav:hover button {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav.shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: -11px;
+}
+
+nav ul li {
+    margin-left: 30px;
+    padding: 4px;
+
+}
+
+nav ul li a:hover {
+    color: red;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+.button1 {
+    margin-left: 105px;
+    border-radius: 39px;
+    height: 46px;
+    width: 130px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    border: 2px solid #ff725e;
+    background-color: white;
+    color: #ff725e;
+}
+
+.button1:hover {
+    background-color: #ff725e;
+    border: 2px solid #ff725e;
+    color: white;
+}
+
+.button2 {
+    margin-left: 105px;
+    border-radius: 39px;
+    height: 46px;
+    width: 265px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    margin-right: 90px;
+    border: 2px solid #ff725e;
+    background-color: #ff725e;
+    color: white;
+}
+
+.button2:hover {
+    border: 2px solid #ff725e;
+    color: #ff725e;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 65px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #ff725e;
+    padding: 20px;
+    color: white;
+    height: 300px;
+}
+
+.ContactPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 158px;
+}
+
+.ContactPage p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .ContactPage img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+} */
+
+.ContactPage span {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ContactPage a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+
+.Section1 {
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    background-color: white;
+}
+
+.Section1 img {
+    display: inline;
+}
+
+.spanText {
+    color: red;
+    font-size: 1.9rem;
+}
+
+.MainHead {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    /* display: inline; */
+    text-align: right;
+}
+
+.part-One {
+    display: flex;
+    flex-direction: column;
+    margin-top: 196px;
+    margin-left: 69px;
+}
+
+.Section2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 660px;
+}
+
+.Section2-1 {
+    display: flex;
+    background-color: #ff725e;
+    width: 1190px;
+    height: 500px;
+    border-radius: 0 0 200px 0;
+    margin-top: 77px;
+}
+
+.Section2-1 img {
+    height: 500px;
+    width: 655px;
+}
+
+.Booking-System {
+    font-size: 3rem;
+    padding: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+input[name="Firstname"] {
+    height: 40px;
+    width: 210px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ff725e;
+}
+
+input[name="Lastname"] {
+    height: 40px;
+    width: 210px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ff725e;
+}
+
+input[name="Email"] {
+    height: 40px;
+    width: 445px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ff725e;
+}
+
+input[name="Date"] {
+    color: white;
+}
+
+select {
+    height: 60px;
+    width: 210px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #ff725e;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+
+input {
+    border: 2px solid white;
+    font-size: 1rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[name="Date"] {
+    background-color: #ff725e;
+    height: 50px;
+    width: 210px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+#Appointment {
+    height: 43px;
+    width: 275px;
+    margin-left: 61px;
+    border-radius: 13px;
+    border: 2px solid white;
+    color: white;
+    padding: 4px;
+    margin-top: 36px;
+    font-size: 1.2rem;
+    background-color: #ff725e;
+}
+
+#Appointment:hover {
+    cursor: pointer;
+}
+
+#SignUp {
+    height: 45px;
+    width: 115px;
+    margin-left: 410px;
+    margin-top: 20px;
+    background-color: #ff725e;
+    border-radius: 41px;
+    color: white;
+    font-size: 1.1rem;
+    border: 2px solid #ff725e;
+}
+
+#SignUp:hover {
+    cursor: pointer;
+    border: 2px solid #ff725e;
+    color: #ff725e;
+    background-color: white;
+}
+
+.Links {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.section3 {
+    height: 530px;
+    width: 100%;
+    /* background-color: #ff725e; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left {
+    width: 600px;
+    height: 300px;
+    background-color: #e9ecef;
+    border-radius: 0 150px 0 0;
+    padding: 15px;
+
+}
+
+.right {
+    width: 600px;
+    height: 425px;
+    background-color: white;
+    padding: 15px;
+}
+
+#submit {
+    border-radius: 22px;
+    border: #ff725e;
+    background-color: #ff725e;
+    color: white;
+    height: 45px;
+    width: 140px;
+    padding: 8px;
+    margin-top: 28px;
+    font-size: 1rem;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #ff725e;
+    border: 2px solid #ff725e;
+}
+
+.AboutUs {
+    color: #ff725e;
+    padding: 4px;
+
+}
+
+
+#head {
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+#SpanTxt {
+    font-size: 1.1rem;
+    margin-top: 26px;
+    margin-right: 26px;
+}
+
+.Image1 img {
+    height: 167px;
+    width: 255px;
+    border: 6px solid white;
+    border-radius: 16px;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+.Image2 {
+    display: flex;
+}
+
+.Image2 img {
+    height: 215px;
+    width: 255px;
+    border: 6px solid white;
+    border-radius: 16px;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.Detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+    width: 255px;
+    border: 6px solid white;
+    border-radius: 16px;
+    margin-top: 29px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#Exp {
+    font-size: 7rem;
+    color: #ff725e;
+}
+
+.items ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.items li {
+    margin-top: 8px;
+}
+
+.items ul li::marker {
+    color: #ff725e;
+}
+
+.section4{
+    width: 100%;
+    height: 615px;
+    background-color: #e9ecef;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 70px;
+}
+
+.section4 h1{
+    color: #ff725e;
+    text-align: center;
+}
+.section4 p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.Box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 258px;
+    width: 350px;
+    background-color: white;
+    border-radius: 0 0 50px 0;
+    margin: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.box h2{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: 3px #ff725e
+}
+.box h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.box p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    /* background-color: rgb(141, 141, 210); */
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section5 h3{
+    color: #ff725e;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.service-left{
+    /* background-color: #ff725e; */
+    height: 240px;
+    width: 400px;
+}
+.service-left h4{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 38px;
+}
+.service-right{
+    display: flex;
+    justify-content: center;
+    background-color: #ff725e;
+    height: 230px;
+    border-radius: 100px 0 0 0 ;
+    width: 700px;
+    background-color: rgb(233, 236, 239);
+    align-items: center;
+}
+#Services{
+    height: 43px;
+    width: 126px;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: #ff725e;
+    color: white;
+    border: 2px solid #ff725e;
+}
+#Services:hover{
+    border: 2px soild #ff725e;
+    background-color: white;
+    color: #ff725e;
+}
+.service-left p{
+    margin-top: 15px;
+}
+
+.service-box{
+    height: 327px;
+    width: 533px;
+    background-color: white;
+    box-shadow: 2px -3px 30px #888888;
+    border-radius: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+}
