@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Doctor.css">
+    <script src="https://kit.fontawesome.com/5fa1a5cebf.js" crossorigin="anonymous"></script>
+    <title>Doctor</title>
+</head>
+<body>
+    <!--Sidebar Navigation code  -->
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-clinic-medical"></i><!--Image of sidebar Navigation -->
+                        <div class="title">Doctor page</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="Doctor.html">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">Dashboard</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="Appointment_D.html">
+                        <i class="fas fa-stethoscope"></i>
+                        <div class="title">Appointment</div>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"></i>
+                        <div class="title">Setting</div>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Main center part code -->
+        <div class="main">
+            <div class="top-bar">
+                <div class="search"><!--search bar with icon  -->
+                    <input type="text" name="search" placeholder="search here">
+                    <label for="search"><i class="fas fa-search"></i></label> 
+                </div>
+                <!--User picture  -->
+                <i class="fas fa-bell"></i>
+                <div class="user">
+                    <img src="/img/doctors.png" alt="">
+                </div>
+            </div>
+            <!--card to view information -->
+            <div class="cards">
+               <div class="card">
+                <div class="card-content">
+                    <!--card to view of appointment -->
+                    <div class="number">67</div>
+                    <div class="card-name">Appointment</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fas fa-briefcase-medical"></i>
+                </div>
+               </div>
+               <div class="card">
+                <div class="card-content">
+                     <!--card to view of patient -->
+                    <div class="number">6</div>
+                    <div class="card-name">Patient</div>
+                </div>
+                <div class="icon-box">
+                  <i class="fas fa-wheelchair"></i>
+                </div>
+               </div>
+               <div class="card">
+                <div class="card-content">
+                     <!--card to view of doctor-->
+                    <div class="number">6</div>
+                    <div class="card-name">doctors</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+               </div>
+               
+            </div>
+             <!--list of appointment activity -->
+            <div class="tables">
+                <div class="last-appointments">
+                    <div class="heading">
+                        <h2>Last Appointment</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table class="appoinment">
+                        <thead>
+                            <td>Name</td>
+                            <td>Doctor</td>
+                            <td>Condition</td>
+                            <td>Action</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>liam smith</td>
+                                <td>Dr. Moss</td>
+                                <td>fracture</td>
+                                <td>
+                                    <i class="far fa-eye"></i>
+                                    <i class="far fa-edit"></i>
+                                    <i class="far fa-trash-alt"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>liam smith</td>
+                                <td>Dr. Moss</td>
+                                <td>fracture</td>
+                                <td>
+                                    <i class="far fa-eye"></i>
+                                    <i class="far fa-edit"></i>
+                                    <i class="far fa-trash-alt"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
